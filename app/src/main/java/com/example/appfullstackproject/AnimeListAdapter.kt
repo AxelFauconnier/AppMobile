@@ -10,7 +10,7 @@ class TextItemViewHolder(val textView: TextView): RecyclerView.ViewHolder(textVi
 
 class AnimeListAdapter: RecyclerView.Adapter<TextItemViewHolder>() {
 
-    var data = Array(10, { i -> "Element $i"})
+    var data = Array(100, { i -> "Element $i"})
 
 
 
